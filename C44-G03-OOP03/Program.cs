@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region 1.	Design and implement a Class for the employees in a company:
+            Employee employee;
+            employee = new Employee(1, "Mahmoud", SecurityLevel.Developer, 8500.00m, new DateTime(2024, 1, 22), 'M');
+
+            Console.WriteLine(employee);
+            #endregion
         }
     }
 }
