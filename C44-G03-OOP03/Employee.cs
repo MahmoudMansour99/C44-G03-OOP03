@@ -17,7 +17,7 @@ namespace C44_G03_OOP03
         public string? Name { get; set; }
         public SecurityLevel Security {  get; set; }
         public decimal Salary { get; set; }
-        public DateTime? HireDate { get; set; }
+        public HireDate HireDate { get; set; }
         public char Gender
         {
             get { return gender; }
@@ -32,7 +32,7 @@ namespace C44_G03_OOP03
         #endregion
 
         #region Constructor
-        public Employee(int id, string? name, SecurityLevel security, decimal salary, DateTime? hireDate, char gender)
+        public Employee(int id, string? name, SecurityLevel security, decimal salary, HireDate hireDate, char gender)
         {
             Id = id;
             Name = name;
