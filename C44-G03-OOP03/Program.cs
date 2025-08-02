@@ -44,6 +44,10 @@ namespace C44_G03_OOP03
             //typeA.Y = 1; // protected without inheritance means private
             //typeA.Z = 1; // protected internal without inheritence means internal can't be showsn in the other project
             #endregion
+
+            #region Relation Ship Between Classes
+
+            #endregion
         }
     }
 }
