@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Class
+            Car C01; // Create Instance | Object from Car
+                     // 1. Allocate Required Bytes in Stack [Null]
+
+            C01 = new Car(10, "Audi", 500); // Allocate Required Bytes in Heap (16 Bytes)
+
+            Console.WriteLine(C01);
+            //Console.WriteLine(C01.ToString());
+
+            #endregion
         }
     }
 }
