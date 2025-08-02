@@ -1,4 +1,6 @@
 ﻿using C44_G03_OOP03.Inheritence;
+using System;
+using Common;
 
 namespace C44_G03_OOP03
 {
@@ -25,11 +27,22 @@ namespace C44_G03_OOP03
             //Console.WriteLine(parent.Product());
             //parent.MyFun();
 
-            Child child = new Child(10, 20, 30);
+            //Child child = new Child(10, 20, 30);
 
-            Console.WriteLine(child);
-            Console.WriteLine(child.Product());
-            child.MyFun();
+            //Console.WriteLine(child);
+            //Console.WriteLine(child.Product());
+            //child.MyFun();
+            #endregion
+
+            #region Access Modifier 
+            //TypeA typeA = new TypeA();
+
+            //typeA.A = 1; // Not valid because it is private
+            //typeA.B = 1; // not valid because it is internal in the other projected
+            //typeA.C = 1; // public can be shown every where
+            //typeA.X = 1; // private protected without inheritence means private
+            //typeA.Y = 1; // protected without inheritance means private
+            //typeA.Z = 1; // protected internal without inheritence means internal can't be showsn in the other project
             #endregion
         }
     }
