@@ -45,6 +45,18 @@ namespace C44_G03_OOP03
             this.model = model;
             this.speed = speed;
         }
+        public Car(int id , string? model) : this(id, model, 250)
+        {
+            //this.id = id;
+            //this.model = model;
+            //this.speed = 250;
+        }
+        public Car(int id) : this(id, "BMW", 250)
+        {
+            //this.id = id;
+            //this.model = "BMW";
+            //this.speed = 250;
+        }
         #endregion
 
         #region Methods
